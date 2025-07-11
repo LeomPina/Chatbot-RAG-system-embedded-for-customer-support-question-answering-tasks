@@ -2,6 +2,6 @@
 This project consists of using an LLM to simulate a customer service platform, serving as an assistant for question-answering tasks, using a RAG system and the LangChain framework.
 
 ## Tools used in this project:
-1.langchain openai
-2.weaviate
-3.
+*langchain openai
+weaviate
+*
