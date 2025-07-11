@@ -21,25 +21,19 @@ This notebook demonstrates a complete pipeline to build a customer support chatb
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### 1. Install Dependencies
 
 ```bash
-git clone https://github.com/yourusername/rag-customer-service.git
-cd rag-customer-service
+pip install langchain openai
+pip install "weaviate-client>=3.26.7,<4.0.0"
+pip install huggingface_hub
+pip install -U datasets huggingface_hub fsspec
+pip install -U langchain-community
+pip install sentence_transformers
+pip install gradio
 ```
 
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Minimal required packages:
-```bash
-pip install langchain faiss-cpu openai python-dotenv pypdf
-```
-
-### 3. Environment Variables
+### 2. Environment Variables
 
 Create a `.env` file in the root directory:
 
