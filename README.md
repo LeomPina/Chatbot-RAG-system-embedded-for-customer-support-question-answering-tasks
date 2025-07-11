@@ -43,9 +43,8 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## Usage
 
-1. Place your support documents (PDFs) in the `data/` folder.
-2. Run the notebook: `RAG_system_customer_service_task.ipynb`
-3. Ask questions in natural language — the system retrieves relevant chunks and answers using OpenAI's LLM.
+1. Run the notebook: `RAG_system_customer_service_task.ipynb`
+2. Ask questions in natural language — the system retrieves relevant chunks and answers using OpenAI's LLM.
 
 ## Key Components
 
