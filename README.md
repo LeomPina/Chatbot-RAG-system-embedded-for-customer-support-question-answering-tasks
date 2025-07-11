@@ -19,7 +19,7 @@ This notebook demonstrates a complete pipeline to build a customer support chatb
 - Answer questions with real-time context retrieval  
 - Modular LangChain architecture using `ConversationalRetrievalChain`
 
-## 🛠Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -61,7 +61,7 @@ OPENAI_API_KEY=your_openai_api_key
 - **Vector Store**: `FAISS`
 - **QA Chain**: `ConversationalRetrievalChain`
 
-## 📈 Example Questions
+## Example Questions
 
 ```bash
 Q: How can I reset my account password?
